@@ -14,9 +14,9 @@ namespace Comissao_array
         {
             string[] vendedores = new string[5];
             double[] vendas = new double [5];
-            double[] comissao = new double[5]; 
-            
-            for (int i=0;i <= 5;) 
+            double[] comissao = new double[5];
+
+            for (int i = 0; i <= 5; i++) 
             { 
             Console.WriteLine("Digite o nome do vendedor: ");
             vendedores[i]= Console.ReadLine();
